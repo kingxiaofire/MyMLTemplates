@@ -1,3 +1,10 @@
-# MyMLTemplates
+# 1 MyMLTemplates
+## 01 Get data is the first step
+## 02 Proprcess data and analyze
+## 03 Get feature witch featuren importace
+## 04 Train models
+## 05 Valuation models
+## 06 Draw a heatmap
 
-##  01 Get data is the first step
+# 2 MyDLTemplates
+## DL model with keras and tensorflow

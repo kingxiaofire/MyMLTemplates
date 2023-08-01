@@ -7,4 +7,4 @@
 ## 06 Draw a heatmap
 
 # 2 MyDLTemplates
-## DL model with keras and tensorflow
+## (07-09) DL model with keras and tensorflow

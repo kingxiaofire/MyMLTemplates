@@ -16,4 +16,17 @@ plt.title('Sine wave')
 plt.xlabel('Time') 
 plt.ylabel('Amplitude') 
 plt.grid(True, which='both') 
+plt.savefig('./Code/Test.png')
 plt.show()
+plt.cla()
+
+
+sumf = fft(sum) 
+xf = fftfreq(N, T)[:N//2] 
+plt.ylabel('frequency') 
+plt.xlabel('sample') 
+plt.title("FFT of sum of two sines") 
+plt.plot(xf, 2.0/N * np.abs(sumf[0:N//2])) 
+plt.savefig('./Code/Test1.png')
+plt.cla()
+
